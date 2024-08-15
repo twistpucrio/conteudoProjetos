@@ -20,14 +20,6 @@ function matchNumero(dados){
     let resp = dados.match(exp);
     return resp;
 }
-/* o Uso do parametro g na expresão regular do match
-   copia da documentação:
-    ** If the g flag is used, all results matching the complete regular expression will be returned, 
-        but capturing groups are not included.
-
-    ** If the g flag is not used, only the first complete match and its related capturing groups are returned.
-
-*/
 
 window.addEventListener("load",
    function(){
