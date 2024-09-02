@@ -1,0 +1,67 @@
+ /*criar animação*/
+
+@keyframes carregar {
+    from{
+        width: 50px;
+        background-color: yellow;
+    }
+    to{
+        width: 400px;
+        background-color: red;
+    }
+}
+
+div.barra{
+    width: 10px;
+    background-color: green;
+    animation-duration: 4s;
+    animation-name: carregar;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 10s;
+}
+
+@keyframes porcentagem {
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+
+    }
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: coral;
+        border-radius: 25px;
+    }
+    50%{
+        width:200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: darkcyan;
+    }
+    75%{
+        width: 100px;
+        height: 100px;
+        border-radius: 25px;
+        background-color: brown;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+
+    }
+    
+}
+
+div.mistura{
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-delay: 5s;
+    background-color: bisque;
+    animation-iteration-count: infinite;
+    animation-name: porcentagem;
+    width: 300px;
+    height: 300px;
+}

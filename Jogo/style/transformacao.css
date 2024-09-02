@@ -1,0 +1,27 @@
+img{
+    width: 150px;
+    height: 150px;
+    border: 1px black solid;
+
+}
+
+.rotacao{
+ transform: rotate(30deg);
+}
+
+.translacao{
+ transform:translate(120px, 50%);
+ /*eixo x e eixo y*/
+}
+
+.escala{
+    transform: scale(2, 0.5);
+}
+
+.conjunto{
+    transform: rotate(45deg) translate(200px, 75%)
+}
+
+.skew{
+    transform: skew(30deg, 20deg^ç)
+}

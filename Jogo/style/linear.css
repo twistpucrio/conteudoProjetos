@@ -1,0 +1,41 @@
+div.caixas{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    
+}
+
+#um{
+    background: linear-gradient(pink, hotpink, magenta, purple);
+}
+
+#dois{
+    background:linear-gradient(45deg,pink, 
+                                    hotpink,
+                                    magenta,
+                                    purple)
+}
+#tres{
+    background: linear-gradient(90deg, pink,
+                                       hotpink,
+                                       magenta,
+                                       purple);
+}
+
+#quatro{
+    background:linear-gradient(to left top, pink,
+                                            hotpink,
+                                            magenta,
+                                            purple);
+}
+
+#cinco{
+    background:linear-gradient(.75turn, pink,
+                                    10%, hotpink, 
+                                    15%, magenta,
+                                    23%, purple);
+}
+
+#seis{
+    background: repeating-linear-gradient(45deg, pink,hotpink, purple);
+}

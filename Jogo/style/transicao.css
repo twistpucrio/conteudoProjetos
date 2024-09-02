@@ -1,0 +1,28 @@
+div.caixas{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-color: blueviolet;
+
+}
+
+div.caixas:hover{
+    border-radius: 25px;
+    background-color: cadetblue;
+}
+
+.transicao{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-color: azure;
+    transition: background-color 1s ease;
+    transition: width 1s ease;
+}
+div.transicao:hover{
+    background-color: red;
+    width: 300px;
+}
+
+
+}

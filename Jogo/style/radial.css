@@ -1,0 +1,30 @@
+div.caixas{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+#um{
+    background: radial-gradient(hotpink, pink);
+
+}
+
+#dois{
+
+    background:radial-gradient(closest-side, pink, hotpink, purple);
+
+}
+
+#tres{
+    background: radial-gradient(ellipse at top, pink,  transparent);
+
+}
+
+#quatro{
+    background: radial-gradient(ellipse at bottom, hotpink, transparent);
+
+}
+
+#cinco{
+    background: repeating-radial-gradient( pink, hotpink, purple);
+}
