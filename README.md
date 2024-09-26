@@ -13,4 +13,10 @@ Projeto Jogo + Canvas:
   4. Tranformação;
   5. Manipulação de elementos HTML Javascript;
   6. Manipulação CSS com Javascript;
-  7. Introdução a Orientação Objetos;
+
+
+Projeto comercio eletrônico
+1. estrutura de um arquivo JSON
+2. leitura de arquivo JSON
+3. conversao de objetos
+4. innerHTML
