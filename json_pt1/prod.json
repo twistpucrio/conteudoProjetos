@@ -1,0 +1,25 @@
+{
+    "prodA":[
+        {"cod":1,
+         "nome":"Batata",
+         "desc":"Batata Inglesa, KG",
+         "preco":1.99,
+         "cat":["Tuberculo","Hortifruti","Legume"],
+         "ava":"10/10"
+        },
+        {"cod":2,
+        "nome":"Melancia",
+        "desc":"Grande e doce",
+        "preco":15.99,
+        "cat":["Fruta","Hortifruti"],
+        "ava":"10/10"
+       },
+       {"cod":3,
+       "nome":"Goiaba",
+       "desc":"vermelha, KG",
+       "preco":1.99,
+       "cat":["Fruta","Hortifruti"],
+       "ava":"8/10"
+      }
+    ]
+}

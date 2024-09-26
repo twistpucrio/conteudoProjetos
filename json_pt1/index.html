@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="func.js"></script>
+</head>
+<body>
+    <div id="divProduto">
+    </div>
+    <script>      
+        let divisao = document.querySelector("#divProduto")
+        divisao.innerHTML+= "<ol>"
+        fetch("prod.json").then((response) =>{
+            response.json().then((prod) =>{
+                           prod.prodA.map((produto) =>{
+                            divisao.innerHTML+="<li> {"
+                            +produto.cod+", "
+                            + produto.nome+", "
+                            +produto.preco+", "
+                            +produto.desc+", "
+                            +produto.cat+", "
+                            +produto.ava+ "} </li>";
+                            console.log(produto.cod);
+                            console.log(produto.nome);
+                            console.log(produto.preco);
+                        })          
+            })
+        })
+        divisao.innerHTML+= "</ol>"
+    </script>
+    
+    
+</body>
+</html>
